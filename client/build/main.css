@@ -1,0 +1,52 @@
+body{
+  font-family: Verdana;
+}
+
+.counter-box, .movie-box{
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px auto;
+  width: 300px;
+  font-size: 20px;
+  text-align: left;
+  background-color: #F0F0F0;
+}
+
+button{
+  padding: 10px;
+  width: 300px;
+  border-radius: 10px;
+  font-size: 12px;
+  background-color: #136cb2;
+}
+
+button:hover{
+  background-color: #136cb2;
+}
+
+.movie{
+  padding: 10px;
+}
+
+.movie-form{
+  margin: 0 auto;
+  width: 70%;
+}
+
+.movie-form input{
+  display: block;
+  margin: 20px 0;
+  padding: 10px;
+  width: 100%;
+}
+
+.movie-form input[type=submit]{
+  width: 100%;
+  padding: 10px;
+  margin 20px auto;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  background-color: mediumaquamarine;
+  border-radius: 5px;
+}
