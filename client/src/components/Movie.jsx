@@ -6,7 +6,7 @@ var Movie = React.createClass({
   render: function() {
     return (
       <div className="movie">
-        <a href="http://www.imdb.com/">{this.props.title}<h5>showtimes</h5></a>
+        <a href="http://www.imdb.com/">{this.props.title}</a> <a id="second link" href="http://www.imdb.com/">showtimes</a>
       </div>
       );
   }

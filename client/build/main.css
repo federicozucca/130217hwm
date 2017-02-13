@@ -33,6 +33,9 @@ button:hover{
   width: 70%;
 }
 
+#second-link {
+font-size: 7px}
+
 .movie-form input{
   display: block;
   margin: 20px 0;
